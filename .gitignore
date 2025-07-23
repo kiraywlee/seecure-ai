@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.venv/
+models/user_eye_pos.npy models/user_face.npy
