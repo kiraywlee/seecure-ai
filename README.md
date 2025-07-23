@@ -14,23 +14,6 @@
 
 
 
-## 디렉토리 구조
-seecure_final_git/
-├── detection/
-│ ├── face_register.py # 얼굴 및 기준 시선 등록
-│ ├── gaze_tracker.py # 시선 추적 (실시간)
-│ ├── intrusion_detector.py # 제3자 감지 및 경고
-│ └── utils.py # 공통 유틸 함수
-├── models/
-│ ├── user_face.npy # 등록된 얼굴 이미지 (100x100)
-│ └── user_eye_pos.npy # 기준 시선 좌표 (x, y)
-├── test_face_register.py # 얼굴 등록 테스트용
-├── test_gaze_tracker.py # 시선 추적 테스트용
-├── test_intrusion.py # 침입자 감지 테스트용
-└── .gitignore
-
-
-
 ## 기술 스택
 | 기술        | 설명                                                                 |
 |-------------|----------------------------------------------------------------------|
